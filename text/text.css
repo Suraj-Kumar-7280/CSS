@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+    font-family: "urbanist", sans-serif;
+    display: grid;
+    place-items: center;
+}
+.hero-section{
+    width: 60%;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-decoration-line: underline;
+    text-decoration-color:  blue;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    text-decoration-style: solid;
+    text-shadow: 3px 3px 0 rgb(34, 0, 255);    
+}
+p,
+a {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    line-height: 2.00;
+}

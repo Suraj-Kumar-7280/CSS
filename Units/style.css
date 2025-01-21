@@ -1,0 +1,82 @@
+/* Units */
+body{
+    background-color: hsl(146, 37%, 44%)
+}
+
+/* Pixels */
+/* h1{ 
+    font-size: 73px;
+}
+p{
+    font-size: 40px;
+}
+li{
+    font-size: 50px;
+}*/
+
+/* Percentage */
+/* h1{ 
+    font-size: 456.25%;
+}
+p{
+    font-size: 250%;
+}
+li{
+    font-size:  312.5%;
+ } */
+
+ /* 1 em = 16px */
+
+    
+ /* h1 {  
+    font-size: 4.5625em;
+ }
+
+    p {
+    font-size: 2.5em;
+    }
+
+    .complete{
+        font-size: 10px;
+    }
+    
+   li {
+    font-size: 3.125em;
+   } */
+
+
+   /* 1 rem = we can specify the font size of our will
+   ✅ We need 1 rem = 10px, it makes our life easy 
+   16px = 100%
+   1px = 6.25%
+   10px = 62.5% */
+
+   html {
+    font-size: 62.5%;
+   }
+
+   /* 1rem = 10px ; */
+    h1 {
+    font-size: 7.3rem;
+   }
+
+   p {
+    font-size: 4.0rem;
+   }
+
+   li {
+    font-size: 5.0rem;
+   }
+                                 /*  INTERVIEW QUESTION */
+
+                 /* WHAT IS THE MAIN DIFFERENCE BETWEEN EM AND REM UNITS IN CSS
+
+                 ANS:- the rem unit is only relative to the document's root element, 
+                       while the em unit is only relative to the immediate parent of 
+                       the targeted element */
+
+                /* How does using rem units in your CSS benefit a responsive web design 
+                Ans:-  Rem units allow for dynamic scaling based on a single root font 
+                       size, simplifying the creation of a consistent visual experience 
+                       across various devices.*/
+                

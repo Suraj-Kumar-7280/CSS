@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "jost";
+            box-sizing: border-box;      
+        }
+        h2{
+            color: #fff;
+            font-size: 50px;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px #000;
+        }
+        p{
+            font-size: 20px;
+            color: #fff;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)
+            ),
+            url("../../image/pexels-olly.jpg");
+            background-size: 100% auto;
+            text-align: center;
+            display: grid;
+            background-repeat: no-repeat;
+            place-items: center;
+            background-attachment: fixed;
+        }
+
+        .section-2 {
+            background-image: url("../../image/pexels-nicolas.jpg");
+        }
+        .section-3 {
+            background-image: url("../../image/Eberhardgross.jpg");
+         
+        }
+        .section-4 {
+            background-image: url("../../image/rfera.jpg");
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+           <h2>Parllax</h2>
+           <p> the best fashion girl images</p>
+        </div>
+    </section>
+    <section class="section-2">
+        <div>
+            <h2>City</h2>
+            <p>Architectural Photography Of City</p>
+        </div>
+    </section>
+    <section class="section-3">
+        <div>
+            <h2>Night</h2>
+            <p>The weather is pleasant at night</p>
+        </div>
+    </section>
+    <section class="section-4">
+        <div>
+            <h2>Parallax</h2>
+            <p>A man stands in front of a picture</p>
+        </div>
+    </section>
+</body>
+</html>

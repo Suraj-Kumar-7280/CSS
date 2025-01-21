@@ -1,0 +1,30 @@
+body{
+    display: grid;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    
+}
+.padding-section{
+    width: 50%;
+    font-size: 40px;
+    background-color: linear-gradient(to right, #a8eb12, #870d56);
+    padding: 50px;
+}
+h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 3px 4px 0 yellow;
+    text-decoration-line: 4px;
+}
+p{
+     width: 1000px; 
+    height: 200px;
+    border: 8px solid #003180;
+    background-color: aqua;
+    color: green;
+    letter-spacing: 1px;
+    word-spacing: 1.2px;
+    line-height: 1.02;
+    border-radius: 10px;
+    padding: 40px;
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    /* background-image: linear-gradient(red, yellow); */
+    /* background-image: linear-gradient(90deg, red, yellow); */
+    /* background-image: linear-gradient(to top left, red, yellow); */
+    /* background-image: repeating-linear-gradient(45deg, #02e0fb, #79ac78 100px); **/
+
+    /* Add color ovelay on image */
+
+    /* background-image:linear-gradient( 
+    to right top, 
+    rgba(5, 25, 55, 0.9), 
+    rgba(0, 77, 122, 0.9), 
+    rgba(0, 135, 147, 0.9), 
+    rgba(0, 191, 114, 0.9), 
+    rgba(168, 235, 18, 0.9) 
+    ), 
+    url(Slide5-e1596622550694.jpg);  */
+
+    /* radial-gradient */
+    /* background-image: radial-gradient(circle, red, yellow, green, white ); */
+
+    /* Differently Spaced color stops */
+    /* background-image: radial-gradient(red 30%, yellow 60%, blue 10%, white); */
+
+    /* background-image: repeating-radial-gradient(#ff5733, #ffc300, #a8df8e 150px); */
+
+ /* circular pattern */
+    background-image: radial-gradient(
+        circle at center,
+        #ff5733 0%,
+        #ffc300 20%,
+        #ff5733 40%,
+        #2980b9 60%,
+        #33ff57 80%,
+        #2980b9 100%
+    );
+}

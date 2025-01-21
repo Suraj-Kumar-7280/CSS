@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Jost:wght@300;400;500;7008 family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;7006 family-Urbanist:wght@300;400;500;600;700;800; 900&display=swap");
+
+body{
+    background-color: aquamarine;
+    display: grid;
+    place-items: center;
+}
+
+.hero-section{
+    width: 50%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Urbanist", sans-serif;
+    font-size: 45px;
+}
+
+p {
+font-family: "Urbanist", sans-serif;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: #F6FB7A;
+}
+h1{
+    color: rgb(0,255,0);
+    font-size: 58px;
+}
+p{
+color: rgb(255,0,0);
+font-weight: bolder;
+}
+#save{
+    background:#ff0000;
+    color: #000000;
+}
+#save:hover{
+    background-color: black;
+color:white;
+}
